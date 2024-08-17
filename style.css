@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    filter: brightness(100%);
+
+
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.navbar {
+    /* border: solid; */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinkContainer {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    align-items: center;
+gap: 70px;
+
+
+}
+
+.navlinkContainer li :hover{
+color:  rgb(6, 92, 70)!important;
+}
+
+.mainContainer{
+    background: url('./bg.png') 100%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 84vh;
+}
+
+.Banner {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    /* border: solid; */
+
+    margin-top: 5px;
+
+}
+
+.Banner .row {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    position: relative;
+    position: relative;
+
+}
+
+.Banner .row .col1 {
+
+    padding: 20PX;
+    height: 100%;
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Banner .row .col1 .base {
+    height: 50%;
+    /* border: solid; */
+    padding: 20px;
+    width: 100%;
+}
+
+.Banner .row .col1 .base .titleSection {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.detailsSection {
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.Banner .row .col1 .base .discoverBtn {
+    /* border: solid; */
+    padding: 8px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(6, 92, 70);
+    color: #fff !important;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.subDetails {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2; */
+    /* border: solid; */
+    width: 50%;
+    padding: 20px;
+}
+
+.subDetails .row{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    /* border: solid; */
+    /* padding: 10px; */
+   
+}
+
+.smalltext{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.subDetails .row .col-30{
+    width: 30%;
+    padding: 10px;
+    /* border: solid; */
+}
+.subDetails .row .col-70{
+    width: 70%;
+    padding: 10px;
+    /* border: solid; */
+}
+
+.iconContainer{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+
+
+.navContainer .nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer .nav li a {
+    padding: 10;
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
+
+
+
